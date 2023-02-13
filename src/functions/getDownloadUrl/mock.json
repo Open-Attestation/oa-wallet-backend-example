@@ -1,0 +1,6 @@
+{
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "body": "{\"filename\": \"6dfbd029-3ffe-40d1-bf25-68c40e3cbbc4\",\"expiryInSeconds\": 600}"
+}
