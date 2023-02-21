@@ -3,7 +3,7 @@ A reference set of API endpoints to support the "Generate QR code" feature from 
 
 ## Endpoints
 ### getuploadurl
-`getuploadurl` generates a temporary S3 presigned upload url for the OA Wallet Apps to upload the chosen document that the user wishes to generate a QR code for.
+`getuploadurl` generates a [temporary S3 presigned upload url](https://docs.aws.amazon.com/AmazonS3/latest/userguide/PresignedUrlUploadObject.html) for the OA Wallet App to upload the chosen document that the user wishes to generate a QR code for.
 
 #### Request
 ```
@@ -18,7 +18,7 @@ A reference set of API endpoints to support the "Generate QR code" feature from 
 ```
 
 ### getdownloadurl
-`getdownloadurl` generates a temporary S3 presigned download url for the OA Wallet Apps to encode into a QR code.
+`getdownloadurl` generates a [temporary S3 presigned download url](https://docs.aws.amazon.com/AmazonS3/latest/userguide/ShareObjectPreSignedURL.html) for the OA Wallet App to encode into a QR code.
 
 #### Request
 ```
